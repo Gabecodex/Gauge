@@ -1,0 +1,60 @@
+{
+    "documents": [
+      {
+        "id": 1,
+        "title": "Introduction to Elasticsearch",
+        "author": "John Doe",
+        "date": "2022-01-01",
+        "category": "Guide",
+        "content": "Elasticsearch is a distributed, open-source search and analytics engine...",
+        "tags": ["elasticsearch", "search", "analytics"]
+      },
+      {
+        "id": 2,
+        "title": "Installing Elasticsearch on Linux",
+        "author": "Jane Doe",
+        "date": "2022-02-01",
+        "category": "Tutorial",
+        "content": "This tutorial covers the steps to install Elasticsearch on a Linux system...",
+        "tags": ["elasticsearch", "install", "linux"]
+      },
+      {
+        "id": 3,
+        "title": "Indexing Data in Elasticsearch",
+        "author": "John Doe",
+        "date": "2022-03-01",
+        "category": "Tutorial",
+        "content": "Learn how to index data in Elasticsearch using the REST API or a programming language...",
+        "tags": ["elasticsearch", "indexing", "data"]
+      },
+      {
+        "id": 4,
+        "title": "Searching Data in Elasticsearch",
+        "author": "Jane Doe",
+        "date": "2022-04-01",
+        "category": "Tutorial",
+        "content": "Discover the different ways to search for data in Elasticsearch using the REST API or a programming language...",
+        "tags": ["elasticsearch", "searching", "data"]
+      },
+      {
+        "id": 5,
+        "title": "Visualizing Data with Kibana",
+        "author": "John Doe",
+        "date": "2022-05-01",
+        "category": "Tutorial",
+        "content": "Learn how to use Kibana to create visualizations and dashboards for your data stored in Elasticsearch...",
+        "tags": ["kibana", "visualization", "elasticsearch"]
+      },
+      
+      {
+        "id": 15,
+        "title": "Elasticsearch Cluster Management",
+        "author": "Jane Doe",
+        "date": "2022-12-01",
+        "category": "Tutorial",
+        "content": "Learn how to manage an Elasticsearch cluster, including adding and removing nodes, and rebalancing the cluster...",
+        "tags": ["elasticsearch", "cluster", "management"]
+      }
+    ]
+  }
+  
