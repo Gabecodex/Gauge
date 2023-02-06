@@ -1,10 +1,20 @@
-import plotly.express as px
-import json
+import plotly.graph_objects as go
+import pandas as pd
 
-with open("Data.json", 'r') as f:
-    data = json.load(f)
+df = pd.read_json('Data.json')
+
+print( df.info(verbose= True) )
+print(df)
 
 
-with open("json.json") as f:
-    data = json.load(f)
+df['value'] = df['value'].astype(float)
+
+
+fig = go.Figure(go.Indicator(
+    mode = "gauge+number",
+    value = df.value[3],
+    domain = {'x': [0, 1], 'y': [0, 1]},
+    title = {'text': "Speed"}))
+
+fig.show()
 
